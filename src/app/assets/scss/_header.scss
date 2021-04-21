@@ -1,0 +1,142 @@
+header {
+  border-top: 10px solid #3d5b29;
+}
+.community_logo {
+  width: 195px;
+  display: inline-block;
+  padding: 0.6rem 0;
+}
+.community_logo img {
+  width: 100%;
+}
+
+.community_logo_app {
+  display: inline-block;
+  width: 68px;
+  overflow: hidden;
+  vertical-align: middle;
+  img {
+    width: 225px;
+  }
+}
+
+.searchInline {
+  display: inline-block;
+  margin-left: 5%;
+  width: 70%;
+  vertical-align: middle;
+}
+.navbar-expand-lg {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+.navbar-light {
+  padding: 4px 0px 0px;
+  .navbar-nav {
+    .nav-link {
+      color: #000;
+      text-align: center;
+      font-size: 0.8rem;
+      border-bottom: 2px solid #000;
+      margin-left: 20px;
+      font-weight: 700;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: #509423;
+        border-bottom: 2px solid #509423;
+      }
+      svg {
+        display: block;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+        color: #000;
+      }
+    }
+  }
+}
+
+.nav-item.dropdown {
+  > a.nav-link {
+    padding-left: 2.5rem;
+  }
+  .nav-link {
+    border: 0;
+    &:hover,
+    &:focus,
+    &:active {
+      color: #509423;
+      border-bottom: 0;
+    }
+    > span {
+      display: inline-block;
+      vertical-align: middle;
+      strong {
+        padding-right: 5px;
+      }
+    }
+  }
+  .dropdown-header {
+    padding: 0rem 1em;
+    white-space: inherit;
+    margin-bottom: 22px;
+    .userFullName {
+      display: block;
+      font-size: 1rem;
+      color: #000;
+    }
+    .userRoles {
+      font-size: 0.7rem;
+      line-height: 1.2;
+      display: block;
+      padding: 5px 0px 10px;
+    }
+  }
+  .dropdown-menu {
+    width: 265px;
+    right: 0;
+    left: auto;
+    padding-bottom: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #b1adad;
+    overflow: hidden;
+    top: 115%;
+  }
+}
+.useravatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  vertical-align: middle;
+  display: inline-block;
+}
+.headerDropdownListItems {
+  &.dropdown-item {
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    border-left: 3px solid #000;
+    color: #000;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.9rem;
+    &:hover {
+      border-left: 3px solid #509423;
+      background: #fff;
+    }
+  }
+}
+.btop {
+  border-top: 1px solid #ddd;
+}
+
+.headerDropdownLogout {
+  text-align: center;
+  color: #509423;
+  font-weight: 700;
+  font-size: 0.9rem;
+}

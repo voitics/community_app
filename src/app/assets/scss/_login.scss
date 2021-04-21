@@ -1,0 +1,42 @@
+.community_loginPage {
+  background-color: #f7f7f7;
+}
+.community_loginImage img {
+  width: 100%;
+}
+
+.community_loginSignupForm {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.community_loginSignupHeader {
+  text-align: center;
+  span {
+    font-size: 0.9rem;
+  }
+}
+.forgetPassword {
+  font-size: 0.9rem;
+  text-align: center;
+}
+.loginOtherOptions {
+  text-align: center;
+}
+.fb-icon,
+.google-icon {
+  font-size: 2.6rem;
+  display: inline-block;
+  margin-right: 5px;
+}
+.fb-icon {
+  color: rgb(59, 89, 152);
+}
+.google-icon {
+  color: rgb(255, 51, 51);
+  font-size: 3rem;
+}
